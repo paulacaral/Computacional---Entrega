@@ -7,11 +7,11 @@ int ns(int dim, int *red, int *n_s, int *vec)
 	float p;
 	int i, k, n, fragmento;
 	
-	sprintf(filename, "dim_%i_ns2_5.txt", dim);
+	sprintf(filename, "dim_%i_ns.txt", dim);
 
 	fp = fopen(filename, "w");
 	srand(1);
-	for(p = 0.540 ; p <= 0.5500 ; p = p + 0.0001)
+	for(p = 0.540 ; p <= 0.800 ; p = p + 0.0001)
 	{
 		
 		i = 0;
